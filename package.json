@@ -1,0 +1,27 @@
+{
+  "name": "cypress-mocha-pageobjectmodel",
+  "version": "1.0.0",
+  "description": "A sample template for we abd api test in Cypress",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:electron": "cypress run --browser electron",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true"
+  },
+  "author": "Parthiban Rajasekaran",
+  "dependencies": {
+    "cypress-image-snapshot": "^4.0.0",
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "cypress": "^6.2.0",
+    "typescript": "^4.1.3"
+  }
+}
